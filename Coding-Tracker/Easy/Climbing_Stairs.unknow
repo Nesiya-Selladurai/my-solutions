@@ -1,0 +1,20 @@
+1class Solution {
+2public:
+3    int solve(int n){
+4        //Bottom up approach
+5        if(n==1 ||n==2)
+6        return n;
+7        int p1=1;
+8        int p2=2;
+9        int c=0;
+10        for(int i=3;i<=n;i++){
+11            c=p1+p2;
+12            p1=p2;
+13            p2=c;}
+14            return c;
+15    }
+16    int climbStairs(int n) {
+17        //vector<int> dp(n+1,-1);
+18        return solve(n);
+19    }
+20};
