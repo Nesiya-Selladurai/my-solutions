@@ -3,7 +3,7 @@
  * Platform  : LeetCode
  * Difficulty: Medium
  * Language  : unknown
- * URL       : https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+ * URL       : https://leetcode.com/problems/frequency-of-the-most-frequent-element/
  * Solved    : 2026-08-28
  */
 
@@ -50,3 +50,19 @@
  */
 
 int n=nums.length,l=0,r=0,maxlen=0;
+        while(r<n){
+            int cnt=k;
+            while(cnt<0 && nums[l]<=nums[r]){
+                if(nums[l]==nums[r]) r++;
+                nums[l]++;
+                cnt--; 
+            }
+            maxlen=Math.max(maxlen,r-l+1);
+            if(cnt==0 && nums[l]!=nums[r]){
+                l++;
+            }
+            //if(nums[l]==nums[r])
+            
+            r++;
+        }
+        return maxlen;
