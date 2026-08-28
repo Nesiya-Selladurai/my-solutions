@@ -49,15 +49,4 @@
  * 1 <= k <= 105
  */
 
-class Solution {
-    public int maxFrequency(int[] nums, int k) {
-        int n=nums.length,l=0,r=0;
-        while(r<n){
-            int v=1;
-        }
-            int max=Math.max(max,nums[r]);
-            while(v<=k && nums[r]){
-                
-            }
-    }
-}
+int n=nums.length,l=0,r=0,maxlen=0;
