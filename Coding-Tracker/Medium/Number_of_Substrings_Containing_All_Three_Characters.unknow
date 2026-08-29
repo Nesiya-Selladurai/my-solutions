@@ -3,7 +3,7 @@
  * Platform  : LeetCode
  * Difficulty: Medium
  * Language  : unknown
- * URL       : https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/
+ * URL       : https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
  * Solved    : 2026-08-29
  */
 
@@ -44,3 +44,7 @@
  */
 
 class Solution {
+    public int numberOfSubstrings(String s) {
+        
+    }
+}
