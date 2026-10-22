@@ -3,7 +3,7 @@
  * Platform  : LeetCode
  * Difficulty: Medium
  * Language  : unknown
- * URL       : https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/submissions/2178786879/?envType=daily-question&envId=2026-10-22
+ * URL       : https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/?envType=daily-question&envId=2026-10-22
  * Solved    : 2026-10-22
  */
 
@@ -86,4 +86,5 @@ class Solution {
         }
         return cnt==nums.length ? -1 : cnt;
     }
+        
 }
